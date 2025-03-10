@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Inline "TT" Favicon (SVG as Data URI) -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='0' y='22' font-size='22' font-family='Arial' fill='black'%3ETT%3C/text%3E%3C/svg%3E"
+      type="image/svg+xml"
+    />
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Task Tracker</h1>
+      <div class="input-area">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button id="addTaskBtn">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
